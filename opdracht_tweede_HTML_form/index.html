@@ -1,0 +1,64 @@
+<form name="recepten" method="POST" data-netlify="true">
+  <p>
+    <label for="naam">Uw naam: <input type="text" name="naam" /></label>
+  </p>
+  <p>
+    <label for="email"
+      >Uw e-mailadres: <input type="email" name="email"
+    /></label>
+  </p>
+  <p>
+    <label for="telefoonnummer"
+      >Uw telefoonnummer: <input type="tel" name="telefoonnummer"
+    /></label>
+  </p>
+  <p>
+    <label for="leeftijd"
+      >Uw leeftijd: <input type="number" name="leeftijd"
+    /></label>
+  </p>
+  <p>
+    <label for="geboortedatum"
+      >Uw geboortedatum: <input type="date" name="geboortedatum"
+    /></label>
+  </p>
+  <p>
+    <label for="geslacht"
+      >Uw geslacht: <input type="radio" name="geslacht" value="man" />Man
+      <input type="radio" name="geslacht" value="vrouw" />Vrouw
+      <input type="radio" name="geslacht" value="anders" />Anders
+    </label>
+  </p>
+  <p>
+    <label for="favocuisine"
+      >Uw favoriete cuisine:
+      <input type="checkbox" name="favocuisine1" value="frans" />Frans
+      <input type="checkbox" name="favocuisine2" value="italiaans" />Italiaans
+      <input type="checkbox" name="favocuisine3" value="spaans" />Spaans
+      <input type="checkbox" name="favocuisine4" value="arabisch" />Arabisch
+    </label>
+  </p>
+  <p>
+    <label for="kleurschort"
+      >Favoriete kleur schort: <input type="color" name="kleurschort"
+    /></label>
+  </p>
+  <p>
+    <label for="biografie">Uw biografie:</label><br />
+    <textarea name="biografie" cols="50" rows="10"></textarea>
+  </p>
+  <p>
+    <label for="laatsterecept"
+      >Upload hier uw laatste recept: <input type="file" name="laatsterecept"
+    /></label>
+  </p>
+  <p>
+    <label for="website"
+      >Uw recepten website: <input type="url" name="website"
+    /></label>
+  </p>
+  <p>
+    <input type="reset" name="reset" value="Reset formulier" />
+    <input type="submit" name="submit" value="Formulier verzenden" />
+  </p>
+</form>
