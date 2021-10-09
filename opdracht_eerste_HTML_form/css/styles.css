@@ -1,0 +1,142 @@
+@media (min-width: 320px) {
+  body {
+    background-color: orange;
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    background-color: #ccfff5;
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .menu {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 35px;
+    width: 85%;
+    height: auto;
+    background-color: white;
+    border-radius: 20px;
+    padding: 30px;
+    display: flex;
+  }
+
+  .logo {
+    display: inline-block;
+    width: 156px;
+    height: 235px;
+  }
+
+  .menu ul {
+    display: inline;
+    vertical-align: top;
+    margin: 0 auto;
+    position: relative;
+  }
+
+  .menu li {
+    height: 150px;
+    line-height: 150px;
+    text-align: center;
+    display: inline-block;
+    padding: 5px 9px 8px;
+    text-transform: uppercase;
+    color: #fff;
+    min-width: 100px;
+  }
+
+  .menu li:hover {
+    box-shadow: 3px 3px 5px #555;
+  }
+
+  .menu .blauw {
+    background-color: #0fa5c8;
+  }
+
+  .menu .blauw-current {
+    background-color: #0fa5c8;
+    border: 1px dotted black;
+    text-decoration: underline;
+  }
+
+  .menu .geel {
+    background-color: #fba91f;
+  }
+
+  .menu .geel-current {
+    background-color: #fba91f;
+    border: 1px dotted black;
+    text-decoration: underline;
+  }
+
+  .menu .roodroze {
+    background-color: #d91b57;
+  }
+
+  .menu .roodroze-current {
+    background-color: #d91b57;
+    border: 1px dotted black;
+    text-decoration: underline;
+  }
+
+  .menu .groen {
+    background-color: #86c341;
+  }
+
+  .menu .groen-current {
+    background-color: #86c341;
+    border: 1px dotted black;
+    text-decoration: underline;
+  }
+
+  .menu a {
+    text-decoration: none;
+    color: white;
+    text-shadow: 1px 1px #555;
+  }
+
+  main {
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+    height: auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 20px;
+  }
+
+  footer {
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+    height: auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+  }
+
+  .home-foto {
+    max-width: 50%;
+    max-height: 50%;
+  }
+
+  .home-intro-tekst {
+    font-size: 25px;
+    color: white;
+    border-radius: 20px;
+    line-height: 50px;
+    vertical-align: top;
+    margin-top: 60px;
+    margin-left: 35px;
+    display: inline-block;
+    width: 35%;
+    background-color: #d91b57;
+  }
+}
