@@ -1,0 +1,441 @@
+/* This makes sure that the padding and border are included in the total width and height of the elements. */
+* {
+  box-sizing: border-box;
+}
+
+/* Smartphones (portrait) */
+@media (min-width: 320px) {
+  body {
+    background-color: white;
+    font-size: 20px; /*16px*/
+    line-height: 30px;
+  }
+
+  nav {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: auto;
+    display: flex;
+  }
+
+  h2 {
+    text-transform: uppercase;
+    color: #0fa5c8;
+    font-size: 25px;
+  }
+
+  .logo {
+    display: inline-block;
+    width: 99px;
+    height: 150px;
+    margin-top: 12px;
+    margin-right: 10px;
+  }
+
+  nav ul {
+    width: 100%;
+    overflow: auto;
+    white-space: nowrap;
+    padding-left: 0px;
+  }
+
+  nav li {
+    width: auto;
+    height: 150px;
+    line-height: 150px;
+    text-align: center;
+    display: inline-block;
+    padding: 5px 9px 8px;
+    text-transform: uppercase;
+    color: #fff;
+  }
+
+  nav li:hover {
+    box-shadow: 3px 3px 5px #555;
+  }
+
+  nav .blauw {
+    background-color: #0fa5c8;
+  }
+
+  nav .geel {
+    background-color: #fba91f;
+  }
+
+  nav .roodroze {
+    background-color: #d91b57;
+  }
+
+  nav .groen {
+    background-color: #86c341;
+  }
+
+  nav .current {
+    text-decoration: underline;
+    box-shadow: 3px 3px 5px #555;
+  }
+
+  nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px; /*20px*/
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  main {
+    text-align: center;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: auto;
+    padding: 30px;
+    background-color: white;
+    border: 1px solid #d91b57;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+      rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    overflow: hidden;
+  }
+
+  footer {
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+    height: auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+  }
+
+  footer a {
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+  }
+
+  footer a:hover {
+    text-decoration: underline;
+  }
+
+  .home-foto {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  .home-intro-tekst {
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    border-radius: 20px;
+    line-height: 30px;
+    vertical-align: top;
+    margin-top: 60px;
+    display: inline-block;
+    width: 100%;
+    background-color: #d91b57;
+    list-style-position: inside;
+  }
+
+  .wiebenik-tekst {
+    display: inline-block;
+    max-width: 50%;
+    margin-left: 0px;
+    margin-right: 35px;
+    vertical-align: top;
+    list-style-position: inside;
+  }
+
+  .wiebenik-foto {
+    display: inline-block;
+    width: 45%;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+  .inschrijven-form {
+    text-align: left;
+  }
+
+  .inschrijven-tijd-label {
+    display: inline;
+    float: right;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  input[type="date"],
+  textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+
+  label {
+    margin-top: 10px;
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+    width: 100%;
+  }
+
+  input[type="submit"] {
+    background-color: #d91b57;
+    font-size: 20px;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+    margin-top: 10px;
+  }
+
+  input[type="submit"]:hover {
+    background-color: #b61649;
+  }
+
+  .filmpje-container {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+  }
+
+  .filmpje {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+  body {
+    background-color: #ccfff5;
+    font: 14px Arial, Helvetica, sans-serif;
+    line-height: 18px;
+  }
+
+  nav {
+    font-size: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 35px;
+    width: 85%;
+    height: auto;
+    background-color: white;
+    border-radius: 20px;
+    padding: 30px;
+    display: flex;
+  }
+
+  h2 {
+    text-transform: uppercase;
+    color: #0fa5c8;
+    font-size: 1.5em;
+  }
+
+  .logo {
+    display: inline-block;
+    width: 15%;
+    height: 15%;
+  }
+
+  nav ul {
+    width: 100%;
+    overflow: auto;
+    padding-left: 40px;
+  }
+
+  nav li {
+    float: left;
+    width: 14.2%; /* 100% : 7 menublokken */
+    height: 150px;
+    line-height: 150px;
+    text-align: center;
+    display: block;
+    padding: 5px 9px 8px;
+    text-transform: uppercase;
+    color: #fff;
+  }
+
+  nav li:hover {
+    box-shadow: 3px 3px 5px #555;
+  }
+
+  nav .blauw {
+    background-color: #0fa5c8;
+  }
+
+  nav .geel {
+    background-color: #fba91f;
+  }
+
+  nav .roodroze {
+    background-color: #d91b57;
+  }
+
+  nav .groen {
+    background-color: #86c341;
+  }
+
+  nav .current {
+    text-decoration: underline;
+    box-shadow: 3px 3px 5px #555;
+  }
+
+  nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  main {
+    text-align: left;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+    height: auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 20px;
+    border: 0px;
+    box-shadow: none;
+    overflow: hidden;
+  }
+
+  footer {
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+    height: auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+  }
+
+  footer a {
+    font-size: 12px;
+    color: black;
+    text-decoration: none;
+  }
+
+  footer a:hover {
+    text-decoration: underline;
+  }
+
+  .home-foto {
+    display: inline-block;
+    margin-left: 0px;
+    margin-right: 0px;
+    max-width: 50%;
+    max-height: 50%;
+  }
+
+  .home-intro-tekst {
+    text-align: left;
+    font-size: 25px;
+    color: white;
+    border-radius: 20px;
+    line-height: 50px;
+    vertical-align: top;
+    margin-top: 50px;
+    margin-left: 35px;
+    display: inline-block;
+    width: 40%;
+    background-color: #d91b57;
+    list-style-position: outside;
+  }
+
+  .wiebenik-tekst {
+    display: inline-block;
+    max-width: 50%;
+    margin-left: 0px;
+    margin-right: 35px;
+    vertical-align: top;
+    list-style-position: outside;
+  }
+
+  .wiebenik-foto {
+    display: inline-block;
+    width: 45%;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+  .inschrijven-form {
+    text-align: left;
+  }
+
+  .inschrijven-tijd-label {
+    display: inline;
+    float: right;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  input[type="date"],
+  textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+
+  label {
+    margin-top: 5px;
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+    width: 100%;
+  }
+
+  input[type="submit"] {
+    background-color: #d91b57;
+    color: white;
+    font-size: inherit;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+    margin-top: 10px;
+  }
+
+  input[type="submit"]:hover {
+    background-color: #b61649;
+  }
+
+  .filmpje-container {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+  }
+
+  .filmpje {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}

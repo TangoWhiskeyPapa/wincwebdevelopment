@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- hier zet je de code in de head tags -->
+    <title>Gym je Rijk - Beleef hier veel plezier met sport en spel</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+  </head>
+  <body>
+    <!-- hier zet je de code in de body tags-->
+    <header class="header">
+      <nav class="menu">
+        <img class="logo" src="images/logo.png" />
+        <ul>
+          <li class="blauw"><a href="index.html">Home</a></li>
+          <li class="geel"><a href="wiebenik.html">Wie ben ik?</a></li>
+          <li class="roodroze">
+            <a href="peutergym.html">Peutergym</a>
+          </li>
+          <li class="groen"><a href="#">Prijzen</a></li>
+          <li class="blauw"><a href="#">Foto's</a></li>
+          <li class="geel current">
+            <a href="inschrijven.html">Inschrijven</a>
+          </li>
+          <li class="roodroze"><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h2>Inschrijfformulier 2021-2022</h2>
+      <p>
+        Wilt U uw kind of iemand anders inschrijven bij Gym je Rijk? Vul dan
+        onderstaand formulier in en ik zal zo spoedig mogelijk contact met U
+        opnemen!
+      </p>
+      <div class="inschrijven-form">
+        <form name="inschrijven" method="POST" data-netlify="true">
+          <label for="keuze-blok"
+            ><i>Keuzes (aanvinken wat voor u van toepassing is)*</i> </label
+          ><br /><input
+            type="radio"
+            name="keuze-blok"
+            value="Keuze 1: één blok"
+          />Keuze 1: één blok (€78,-)<br />
+          <input
+            type="radio"
+            name="keuze-blok"
+            value="Keuze 2: twee blokken"
+          />Keuze 2: twee blokken (€156,-)<br />
+          <input
+            type="radio"
+            name="keuze-blok"
+            value="Keuze 3: hele seizoen: blok 1, 2 en 3"
+          />Keuze 3: blok 1, 2 en 3 (€234,-)<br />
+          <input
+            type="radio"
+            name="keuze-blok"
+            value="Tussentijdse instroming"
+          />Tussentijdse instroming: kosten worden voor u naar rato berekend<br />
+
+          <label for="keuze-groep"
+            ><i>Groepen (aanvinken wat voor u van toepassing is)*</i></label
+          ><br /><input type="radio" name="keuze-groep" value="Groep 1" />Groep
+          1: kind kan lopen tot 2,5 jaar (met één begeleider)
+          <div class="inschrijven-tijd-label">08:30 - 09:15 uur</div>
+          <br />
+          <input type="radio" name="keuze-groep" value="Groep 2" />Groep 2: 2,5
+          - 3 jaar (met één begeleider)
+          <div class="inschrijven-tijd-label">09:30 – 10:15 uur</div>
+          <br />
+          <input type="radio" name="keuze-groep" value="Groep 3" />Groep 3: 3 -
+          3,5 jaar (met één begeleider)
+          <div class="inschrijven-tijd-label">10:30 – 11:15 uur</div>
+          <br />
+          <input type="radio" name="keuze-groep" value="Groep 4" />Groep 4: 3,5
+          - 5 jaar (met of zonder één begeleider)
+          <div class="inschrijven-tijd-label">11:30 – 12:15 uur</div>
+          <br />
+
+          <label for="keuze-locatie"
+            ><i>Locatie (aanvinken wat voor u van toepassing is)*</i> </label
+          ><br /><input
+            type="radio"
+            name="keuze-locatie"
+            value="Gymzaal De Meule">
+            Gymzaal de Meule: Albert Cuypstraat 1A, 5914 XE Venlo</label
+          ><br />
+          <input
+            type="radio"
+            name="keuze-locatie"
+            value="Gymzaal Oud Zuid"
+          />
+            Gymzaal Oud Zuid: Pastoor Op Heijstraat 26, 5912 BT Venlo<br />
+
+          <label for="naam">Uw naam:* </label><input type="text" name="naam" />
+
+          <label for="email">Uw e-mailadres:* </label
+          ><input type="email" name="email" />
+
+          <label for="telefoonnummer">Uw telefoonnummer:*</label>
+          <input type="tel" name="telefoonnummer" />
+          <label for="naam-kind">Naam van uw kind:* </label
+          ><input type="text" name="naam-kind" />
+          <label for="geboortedatum">Geboortedatum van uw kind:*</label>
+          <input type="date" name="geboortedatum" />
+          <hr />
+          <label>Aanvinken indien van toepassing:</i></label><br>
+          <input type="checkbox" name="akkoord-opnames" />
+          
+            Ik wil <b>niet</b> dat er opnames (foto/film) gemaakt worden van
+            mijn kind, die op internet/social media geplaatst worden.<br />
+          <input type="checkbox" name="akkoord-opnames" />
+            Ik geef <b>akkoord</b> dat ik word toegevoegd, in de groepsapp per
+            groepje, die gebruikt wordt voor noodzakelijke informatie.<br /><br />
+          <input type="submit" name="submit" value="Inschrijfformulier verzenden"> (Velden met een * zijn verplicht)
+        </form>
+      </div>
+    </main>
+    <footer>
+      <a href="http://www.tverhaegh.nl/" target="_blank"
+        >©Tim Verhaegh - 2021</a
+      >
+    </footer>
+  </body>
+</html>
