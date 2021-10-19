@@ -32,7 +32,7 @@ if(firstName === "Bram" || firstName === "Abraham" || firstName === "Sarah" || f
     console.log("Met jouw naam krijg je op deze feestelijke dag een gratis biertje van ons! Proost!");  
 }
 
-if(totalAmount > 100){
+if(totalAmount >= 100){
     console.log("Jij krijgt een gratis flesje champagne. Santé!");
 }else if(totalAmount > 50){
     console.log("Jij krijgt een gratis portie nachos. ¡Buen provecho!");
