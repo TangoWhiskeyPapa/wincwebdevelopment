@@ -56,7 +56,7 @@ kleuren.push({greeting:"Hi ik ben een object"});
 console.log(kleuren);
 
 //opdr 10
-console.log(kleuren[kleuren.length-1]);
+console.log(kleuren[kleuren.length-1].greeting);
 
 //DEEL 3 Bekijk een real-life object
 
