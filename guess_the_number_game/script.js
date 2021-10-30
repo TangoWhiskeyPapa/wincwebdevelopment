@@ -16,7 +16,7 @@ while (grootsteNummer <= kleinsteNummer) {
 
 alert("Het nummer dat je moet raden ligt tussen de " + kleinsteNummer + " en " + grootsteNummer);
 let teRadenNummer = Math.floor(Math.random() * grootsteNummer) + kleinsteNummer;
-alert("Te raden nummer: " + teRadenNummer) //Om te testen, commenten bij uiteindelijke versie
+//alert("Te raden nummer: " + teRadenNummer) //Om te testen, commenten bij uiteindelijke versie
 
 while (pogingen <= 5 && gok != teRadenNummer){
     gok = parseInt(prompt("Poging " + pogingen + ". Voer het nummer in dat je wilt raden.", "5"));
