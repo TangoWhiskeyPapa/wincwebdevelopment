@@ -1,0 +1,113 @@
+body {
+  background-color: lightgray;
+}
+
+p {
+  text-align: center;
+}
+
+.menu {
+  display: none;
+}
+
+.menu_visible {
+  display: block;
+  width: 200px;
+  list-style-type: none;
+  padding-inline-start: 10px;
+
+  /* Code voor links naar rechts animatie/transitie van het kleurenmenu  
+  animation: run ease 45s;
+  -webkit-animation: run ease 45s;
+  -moz-animation: run ease 45s;
+  -o-animation: run ease 45s;
+  -ms-animation: run ease 45s;
+  */
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+}
+
+.menu_visible li {
+  padding: 10px 10px 10px 10px;
+  border: 1px solid grey;
+}
+
+.home-knop {
+  background-color: lightgrey;
+}
+
+.rode-knop {
+  background-color: red;
+}
+
+.blauwe-knop {
+  background-color: blue;
+}
+
+.groene-knop {
+  background-color: green;
+}
+
+.gele-knop {
+  background-color: yellow;
+}
+
+.paarse-knop {
+  background-color: purple;
+}
+
+.oranje-knop {
+  background-color: orange;
+}
+
+/* Code voor links naar rechts animatie/transitie van het kleurenmenu
+
+@keyframes run {
+  0% {
+    margin-left: -15%;
+  }
+  100% {
+    margin-left: 110%;
+  }
+}
+
+@-moz-keyframes run {
+  0% {
+    margin-left: -15%;
+  }
+  100% {
+    margin-left: 110%;
+  }
+}
+
+@-webkit-keyframes run {
+  0% {
+    margin-left: -15%;
+  }
+  100% {
+    margin-left: 110%;
+  }
+}
+
+@-o-keyframes run {
+  0% {
+    margin-left: -15%;
+  }
+  100% {
+    margin-left: 110%;
+  }
+}
+
+@-ms-keyframes run {
+  0% {
+    margin-left: -15%;
+  }
+  100% {
+    margin-left: 110%;
+  }
+}
+*/
